@@ -1,4 +1,4 @@
-﻿#USER-INTERFACE (Console Application)     
+﻿#LIFE COACH APP     
 This is a health care application which works with just one user (only because there is no authentication method, otherwise it is totally functional for many users as well). Application holds the general information of the user such as name, age. Also it holds the life status information of the user such as 'WEIGHT','HEIGHT','HEART RATE','WATER CONSUMPTION','WALKING ACTIVITY','SLEEP'.
 Using this application, user can save his goals for any kind of health measure. for example, 'to LOSE 10 kg of weight' or 'Walking for a specific distance', or even 'to drink 3 litres of water'.
 User can check his progress of how well he is doing on losing weight for example. As a motivation, he might also see a message like 'You have walked for nearly 5 km during the last week, congratulations'.
