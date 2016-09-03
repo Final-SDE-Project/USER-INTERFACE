@@ -1,5 +1,14 @@
 ﻿#USER-INTERFACE (Console Application)     
-This is a health care application which works with just one user. Application holds the general information of the user such as name, age. Also the life status information such as weight and height. System also holds the data of the goals of the person. User can see any kind of information by requesting through menu options. User can change the current goals. Program allows user to change the name and amount of the goal. User can also change the his/her weight or height. When there is a change in life status, system automatically updates the BMI value of the person and sets a new goal for the person. This new goal suggest to lose or gain weight to the user. If users condition is okay, system suggest to lose "zero" kg to the user. Any time of the day, user can enter the amount of goal that he/she did. If goal is accomplished the user will get Congrats message. If goal does not accomplished the user gets Random Quote as a motivational message. Also system shows how much left to finish the task.
+This is a health care application which works with just one user (only because there is no authentication method, otherwise it is totally functional for many users as well). Application holds the general information of the user such as name, age. Also it holds the life status information of the user such as 'WEIGHT','HEIGHT','HEART RATE','WATER CONSUMPTION','WALKING ACTIVITY','SLEEP'.
+Using this application, user can save his goals for any kind of health measure. for example, 'to LOSE 10 kg of weight' or 'Walking for a specific distance', or even 'to drink 3 litres of water'.
+User can check his progress of how well he is doing on losing weight for example. As a motivation, he might also see a message like 'You have walked for nearly 5 km during the last week, congratulations'.
+User can check his ideal weight based on BMI calculator. If his weight is out of ideal weight range, program will automatically set a goal for him. Also he will be notified about the risks of his health status. As a reminder user can check his most change of weight during the last season (something like: 'oh you have gained 12 kg since 12 Jun 2016'). User will also be reminded to enter his Goals or his Health Measures regularly (e.g. 'You have not updated your health measures since last week.')
+In addition, to current goals and measures, user can see his histories of measures and goals in a really user friendly way.
+In this application goals are treated differently:
+1- Weight, Height measures: If user reaches the set goals, Goals are reached.
+2- Water, Steps, Sleep: If user drinks or walks, or sleeps in a period of time; all of them would be added up to check whether the goal is reached or not.
+3- Heart rate: This goal is reached when the average of all the heart rate measures are going up or down.
+A motivational quote is always being printed in the menu page to keep the user motivated to reach his goals.
 
 ## How does the App work?
 
